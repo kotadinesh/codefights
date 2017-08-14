@@ -1,0 +1,9 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE mostExpensive()
+BEGIN
+
+select name from (
+select name,price*quantity
+from Products
+group by price*quantity desc, name asc) as T limit 1;
+END
