@@ -1,0 +1,13 @@
+bool almostIncreasingSequence(std::vector<int> sequence) {
+     bool flag;
+     int i=0;
+     flag=std::is_sorted(sequence.begin(),sequence.end());
+     if (flag==true)
+          return true;
+     else{
+          for(i=0;i<n;i++)
+          {
+               
+          }
+     }
+}
